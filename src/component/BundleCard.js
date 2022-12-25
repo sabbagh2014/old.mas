@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage:
       "linear-gradient(45deg, #eef2f3 90%,#8e9eab 30%, #eef2f3 90%)",
     margin: "8px",
-    width: "90%",
+    width: "100%",
     "&:hover": {
       transform: "scale(1.03)",
       transition: "all 0.4s ease-in-out 0s",
