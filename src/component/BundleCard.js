@@ -630,7 +630,7 @@ function BundleCard({ data }) {
           component="h6"
           style={{ color: "#000", fontWeight: "400", fontSize: "12px" }}
         >
-          {nbSubscribed ? nbSubscribed > 0 ? nbSubscribed+" members subscribed"  : "0 subscriber" : "0"}
+          {nbSubscribed ? nbSubscribed > 0 ? nbSubscribed+" members subscribed"  : "0 subscriber" : "0 members subscribed"}
         </Typography>
         
         <Box className={classes.buttonGroup}>
