@@ -70,7 +70,7 @@ const AuctionPage = () => {
   const [isLoadingBundles, setIsBundlesLoading] = useState(false);
   const [isLoadingAuctions, setIsLaodingAuctions] = useState(false);
   const settings = {
-    dots: true,
+    dots: false,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
