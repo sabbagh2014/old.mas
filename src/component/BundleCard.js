@@ -574,7 +574,7 @@ function BundleCard({ data }) {
               }}
             >
               <video
-                width="60%"
+                width="100%"
                 style={{
                   cursor: "pointer",
                   background: "#000",
