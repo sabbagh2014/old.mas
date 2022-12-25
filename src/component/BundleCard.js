@@ -383,7 +383,7 @@ function BundleCard({ data }) {
 
   const [isLike, setisLike] = useState(false);
   const [nbLike, setnbLike] = useState(0);
-  const [isSubscribed, setisSubscribed] = useState(false);
+  const [isSubscribed, setisSubscribed] = useState(true);
   const [nbSubscribed, setnbSubscribed] = useState(0);
 
   let BundleData = data.bundleDetails || data;
