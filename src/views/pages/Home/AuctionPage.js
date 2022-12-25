@@ -71,6 +71,7 @@ const AuctionPage = () => {
   const [isLoadingAuctions, setIsLaodingAuctions] = useState(false);
   const settings = {
     dots:true,
+    position: true,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
