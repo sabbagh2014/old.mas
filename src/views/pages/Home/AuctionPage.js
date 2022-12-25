@@ -287,7 +287,7 @@ const AuctionPage = () => {
                 >
                   COMING SOON
                 </Typography>
-                <img src="images/noresult.png" />
+                <img src="images/home/nft.png" />
               </Box>
               </Box>
             ) : (
