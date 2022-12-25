@@ -26,11 +26,11 @@ const useStyles = makeStyles((theme) => ({
   cards: {
     border: "solid 0.5px #c9c7c3",
     padding: "10px",
-    borderRadius: "10px",
+    borderRadius: "15px",
     position: "relative",
     backgroundImage:
       "linear-gradient(45deg, #eef2f3 90%,#8e9eab 30%, #eef2f3 90%)",
-    margin: "10px",
+    margin: "8px",
     width: "90%",
     "&:hover": {
       transform: "scale(1.03)",
