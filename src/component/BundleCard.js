@@ -383,7 +383,7 @@ function BundleCard({ data }) {
 
   const [isLike, setisLike] = useState(false);
   const [nbLike, setnbLike] = useState(0);
-  const [isSubscribed, setisSubscribed] = useState(true);
+  const [isSubscribed, setisSubscribed] = useState(false);
   const [nbSubscribed, setnbSubscribed] = useState(0);
 
   let BundleData = data.bundleDetails || data;
@@ -630,7 +630,7 @@ function BundleCard({ data }) {
           component="h6"
           style={{ color: "#000", fontWeight: "400", fontSize: "12px" }}
         >
-          {nbSubscribed ? nbSubscribed >= 0 ? nbSubscribed+" members subscribed"  : "0 subscriber" : ""}
+          {nbSubscribed ? nbSubscribed > 0 ? nbSubscribed+" members subscribed"  : "0 subscriber" : "0"}
         </Typography>
         
         <Box className={classes.buttonGroup}>
