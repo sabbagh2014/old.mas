@@ -187,8 +187,14 @@ export default function UserDetailsCard( data ) {
                 }}
               />
             </figure>
-           
-            <Typography
+           <Box
+              onClick={() => {
+                history.push({
+                  pathname: "/user-profile",
+                  search: userCardData.userName,
+                });
+              }}
+            >            <Typography
                 variant="h4"
                 component="h4"
                 style={{
@@ -217,7 +223,7 @@ export default function UserDetailsCard( data ) {
             {userCardData.speciality}
           </Typography>
           }
-          
+          </box>
           </Box>
           </Box>
           
