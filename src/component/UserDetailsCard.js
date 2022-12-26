@@ -194,7 +194,8 @@ export default function UserDetailsCard( data ) {
                   search: userCardData.userName,
                 });
               }}
-            >            <Typography
+            >           
+            <Typography
                 variant="h4"
                 component="h4"
                 style={{
@@ -223,7 +224,7 @@ export default function UserDetailsCard( data ) {
             {userCardData.speciality}
           </Typography>
           }
-          </box>
+          </Box>
           </Box>
           </Box>
           
