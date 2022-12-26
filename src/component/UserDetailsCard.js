@@ -174,7 +174,7 @@ export default function UserDetailsCard( data ) {
             >
               <img
                 src={userCardData.profilePic || `https://avatars.dicebear.com/api/miniavs/${userCardData?._id}.svg`}
-                onClick={() =>
+               onClick={() =>
                     history.push({
                       pathname: "/user-profile",
                       search: userCardData?.userName,
@@ -187,14 +187,7 @@ export default function UserDetailsCard( data ) {
                 }}
               />
             </figure>
-           <Box
-              onClick={() => {
-                history.push({
-                  pathname: "/user-profile",
-                  search: userCardData.userName,
-                });
-              }}
-            >
+           
             <Typography
                 variant="h4"
                 component="h4"
