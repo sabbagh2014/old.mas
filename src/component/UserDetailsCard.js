@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 const useStyles = makeStyles((theme) => ({
   cards: {
     border: "solid 0.5px #e5e3dd",
-    backgroundImage: "url(/images/bg-magento.jpeg)",
+    backgroundImage: 'linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)',
     padding: "10px",
     borderRadius: "10px",
     width: "200px",
