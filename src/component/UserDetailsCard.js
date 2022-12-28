@@ -175,12 +175,7 @@ export default function UserDetailsCard( data ) {
               <img
 style={{zIndex:'0', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', margin: 'auto', height: '100%'}}
                 src={userCardData.profilePic || `https://avatars.dicebear.com/api/miniavs/${userCardData?._id}.svg`}
-               onClick={() =>
-                    history.push({
-                      pathname: "/user-profile",
-                      search: userCardData?.userName,
-                    })
-                  }
+               onClick={() => history.push({pathname: "/user-profile",search: userCardData?.userName,})}
                 style={{
                   width: "100%",
                   height: "100%",
